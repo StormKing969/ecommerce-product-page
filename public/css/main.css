@@ -61,6 +61,7 @@ body {
 .menu_app h1 {
   text-align: center;
   font-weight: 700;
+  margin-bottom: .34rem;
 }
 
 .menu_user {
