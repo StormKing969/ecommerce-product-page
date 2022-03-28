@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import hamburgerIconOpen from '../../assets/icons/icon-menu.svg';
-import hamburgerIconClose from '../../assets/icons/icon-close.svg';
+import React, { useState } from 'react'
+import hamburgerIconOpen from '../../assets/icons/icon-menu.svg'
+import hamburgerIconClose from '../../assets/icons/icon-close.svg'
 
 const HamburgerMenu = () => {
   const [showMenu, setMenuState] = useState(true)
