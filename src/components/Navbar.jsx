@@ -1,7 +1,7 @@
 import React from 'react';
-import hamburgerIcon from '../assets/images/icons/icon-menu.svg';
-import cartIcon from '../assets/images/icons/icon-cart.svg';
-import avatarImage from '../assets/images/avatar/image-avatar.png';
+import hamburgerIcon from '../assets/icons/icon-menu.svg';
+import cartIcon from '../assets/icons/icon-cart.svg';
+import avatarImage from '../assets/avatar/image-avatar.png';
 
 const Navbar = () => {
   return (
