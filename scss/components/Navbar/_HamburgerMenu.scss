@@ -1,0 +1,28 @@
+.hamburger_open {
+    display: none;
+    position: absolute;
+    background: $white;
+    top: 0;
+    left: 0;
+    right: 7rem;
+    padding: 1.7rem 2rem 0;
+
+    img {
+        margin-bottom: 3rem;
+        cursor: pointer;
+   }
+   
+   ul {
+   
+       li {
+           margin-bottom: 1rem;
+           font-weight: $bold;
+           font-size: 1.1rem;
+   
+           a {
+               color: $black;
+               cursor: pointer;
+           }
+       }
+   }
+}

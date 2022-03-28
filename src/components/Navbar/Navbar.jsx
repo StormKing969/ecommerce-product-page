@@ -1,13 +1,13 @@
 import React from 'react';
-import hamburgerIcon from '../assets/icons/icon-menu.svg';
-import cartIcon from '../assets/icons/icon-cart.svg';
-import avatarImage from '../assets/avatar/image-avatar.png';
+import cartIcon from '../../assets/icons/icon-cart.svg';
+import avatarImage from '../../assets/avatar/image-avatar.png';
+import HamburgerMenu from './HamburgerMenu';
 
 const Navbar = () => {
   return (
     <nav className="navbar">
         <div className="menu_app">
-            <img src={hamburgerIcon} alt="Hamburger Icon"/>
+            <HamburgerMenu />
 
             <h1>sneakers</h1>
         </div>
