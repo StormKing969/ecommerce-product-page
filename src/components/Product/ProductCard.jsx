@@ -40,7 +40,7 @@ const ProductCard = (props) => {
 
                 <div>
                     <button className='update_cart'>
-                        <img src={cartIcon} alt='cart icon' />
+                        <img className='cart_icon' src={cartIcon} alt='cart icon' />
                         <span>Add to cart</span>
                     </button>
                 </div>

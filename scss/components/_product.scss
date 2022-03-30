@@ -86,6 +86,14 @@
     }
 }
 
+.quantity_neg {
+    cursor: pointer;
+}
+
+.quantity_plus {
+    cursor: pointer;
+}
+
 .quantity_counter {
     margin: 0 auto;
 }
@@ -99,10 +107,6 @@
     justify-content: center;
     align-items: center;
     color: $white;
-
-    img {
-        color: $white;
-    }
     
     span {
         margin-left: 1rem;

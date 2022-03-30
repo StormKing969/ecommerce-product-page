@@ -238,6 +238,14 @@ a {
   font-size: 700;
 }
 
+.quantity_neg {
+  cursor: pointer;
+}
+
+.quantity_plus {
+  cursor: pointer;
+}
+
 .quantity_counter {
   margin: 0 auto;
 }
@@ -256,10 +264,6 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: white;
-}
-
-.update_cart img {
   color: white;
 }
 
